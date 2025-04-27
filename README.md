@@ -1,73 +1,72 @@
-# Welcome to your Lovable project
+# 🎬 Video Editing Platform (Frontend)
 
-## Project info
+## Project Overview
+This project is the **AdityaVideoLab** for a web-based **video editing tool** that allows users to:
+- Upload custom videos
+- Rearrange scenes and manage audio
+- Add subtitles, text overlays, and images
+- Preview edits in real-time
+- Export and download the final video
 
-**URL**: https://lovable.dev/projects/a4d2b290-61b6-4d5d-b01b-616daaab929a
+This is a frontend-only project using mock APIs and simulated rendering logic where backend functionality is not available.
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## 🚀 Tech Stack
+- **React.js** (with optional Next.js App Router support)
+- **Tailwind CSS** (for styling)
+- **ShadCN UI** (for components like Dialogs, Buttons, Tabs, Toasts, etc.)
+- **Redux Toolkit** (for state management)
 
-**Use Lovable**
+### Optional Libraries Used
+- **React Dropzone** — Drag-and-drop video upload
+- **React DnD** — Timeline scene rearrangement
+- **React Player** — Video preview playback
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/a4d2b290-61b6-4d5d-b01b-616daaab929a) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## ✨ Features
+### 1. Video Upload
+- Drag and drop upload interface
+- Simulated upload progress bar
+- Video thumbnail preview
 
-**Use your preferred IDE**
+### 2. Video Timeline Interface
+- Timeline with video frames or markers
+- Add/remove/rearrange scenes via drag-and-drop
+- Mock trim/edit actions
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### 3. Audio Management
+- Display static/mock audio waveform
+- Rearrange or mute specific audio segments
+- Add background music (stubbed)
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### 4. Subtitles & Text Overlay
+- Subtitle input and styling (font, position, size)
+- Multiple subtitle block support
+- Text overlays with customizable styles
 
-Follow these steps:
+### 5. Image Overlay
+- Upload and position static images over video
+- Resize, drag, and style images (border, opacity, animation)
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### 6. Preview & Render Controls
+- Real-time preview with `<video>` or React Player
+- Simulated "Render" button with loading effect
+- Simulated "Download" button for final export
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+---
 
-# Step 3: Install the necessary dependencies.
-npm i
+## 📦 Getting Started
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+Follow these steps to run the project locally:
 
-**Edit a file directly in GitHub**
+### 1. Clone the Repository
+```bash
+git clone https://github.com/Aditya19Gupta/Frontend_Video_Editing_App
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/a4d2b290-61b6-4d5d-b01b-616daaab929a) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+### 2. Setup
+--> open terminal
+--> run this command in terminal ***npm install
+### 3. Run the app
+--> run this command in same terminal *** npm run dev
