@@ -61,7 +61,7 @@ This is a frontend-only project using mock APIs and simulated rendering logic wh
 
 Follow these steps to run the project locally:
 
-### 1. Clone the Repository
+### 1. Clone and Run the Repository
 ```bash
 git clone https://github.com/Aditya19Gupta/Frontend_Video_Editing_App
 
