@@ -73,5 +73,5 @@ git clone https://github.com/Aditya19Gupta/Frontend_Video_Editing_App
 --> npm run dev
 
 ```
-###this is step which helps to setup and run the project.
-***Thank you!
+*** this is step which helps to setup and run the project. ***
+### Thank you!
