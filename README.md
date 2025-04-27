@@ -68,9 +68,9 @@ git clone https://github.com/Aditya19Gupta/Frontend_Video_Editing_App
 # Setup
 # Open your terminal
 # Navigate into the project directory (if not already) and run this command
-    **npm install**
+>>>npm install
 # Run this command to run the app
-   **npm run dev**
+>>>npm run dev
 
 ```
 **this is the step which helps to setup and run the project.**
