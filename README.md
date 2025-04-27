@@ -66,9 +66,10 @@ Follow these steps to run the project locally:
 git clone https://github.com/Aditya19Gupta/Frontend_Video_Editing_App
 
 ### 2. Setup
---> open terminal
---> run this command in terminal npm install
-### 3. Run the app
+# Open your terminal
+# Navigate into the project directory (if not already) and run this command
+    npm install
+# 3. Run the app
 --> run this command in same terminal npm run dev
 ---
 this is step which helps to setup and run the project.
